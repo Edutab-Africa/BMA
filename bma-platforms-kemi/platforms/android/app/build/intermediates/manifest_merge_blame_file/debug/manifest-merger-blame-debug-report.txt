@@ -1,0 +1,791 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moodle.edutab"
+4    android:hardwareAccelerated="true"
+5    android:versionCode="43000"
+6    android:versionName="4.3.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+13        android:anyDensity="true"
+13-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+14        android:largeScreens="true"
+14-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+15        android:normalScreens="true"
+15-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+16        android:resizeable="true"
+16-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+17        android:smallScreens="true"
+17-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+18        android:xlargeScreens="true" />
+18-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+20-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+21
+22    <uses-feature
+22-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:67:5-88
+23        android:name="android.hardware.bluetooth"
+23-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:67:19-60
+24        android:required="false" />
+24-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:67:61-85
+25
+26    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+26-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:68:5-80
+26-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:68:22-77
+27
+28    <queries>
+28-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:69:5-83:15
+29        <intent>
+29-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:70:9-72:18
+30            <action android:name="android.media.action.IMAGE_CAPTURE" />
+30-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:71:13-73
+30-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:71:21-70
+31        </intent>
+32        <intent>
+32-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:73:9-75:18
+33            <action android:name="android.intent.action.GET_CONTENT" />
+33-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:74:13-72
+33-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:74:21-69
+34        </intent>
+35        <intent>
+35-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:76:9-78:18
+36            <action android:name="android.intent.action.PICK" />
+36-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:77:13-65
+36-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:77:21-62
+37        </intent>
+38        <intent>
+38-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:79:9-82:18
+39            <action android:name="com.android.camera.action.CROP" />
+39-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:80:13-69
+39-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:80:21-66
+40
+41            <data
+41-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:15:17-49
+42                android:mimeType="image/*"
+42-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:81:19-45
+43                android:scheme="content" />
+43-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:15:23-46
+44        </intent>
+45    </queries>
+46
+47    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+47-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:84:5-81
+47-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:84:22-78
+48    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+48-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:85:5-79
+48-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:85:22-76
+49    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+49-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:86:5-76
+49-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:86:22-73
+50    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+50-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:87:5-75
+50-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:87:22-72
+51    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+51-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:88:5-80
+51-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:88:22-77
+52    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+52-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:89:5-81
+52-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:89:22-78
+53    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+53-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:90:5-79
+53-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:90:22-76
+54
+55    <uses-feature
+55-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:91:5-91
+56        android:name="android.hardware.location.gps"
+56-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:91:19-63
+57        android:required="false" />
+57-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:91:64-88
+58
+59    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+59-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:92:5-81
+59-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:92:22-78
+60    <uses-permission android:name="android.permission.WAKE_LOCK" />
+60-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:93:5-68
+60-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:93:22-65
+61    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+61-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:94:5-79
+61-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:94:22-76
+62    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+62-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:95:5-77
+62-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:95:22-74
+63    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+63-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:96:5-71
+63-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:96:22-68
+64    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+64-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:97:5-71
+64-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:97:22-68
+65    <uses-permission
+65-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:98:5-90
+66        android:name="android.permission.CAMERA"
+66-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:98:22-62
+67        android:required="false" />
+67-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:98:63-87
+68
+69    <uses-feature
+69-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:99:5-85
+70        android:name="android.hardware.camera"
+70-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:99:19-57
+71        android:required="false" />
+71-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:99:58-82
+72    <uses-feature
+72-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:100:5-91
+73        android:name="android.hardware.camera.front"
+73-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:100:19-63
+74        android:required="false" />
+74-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:100:64-88
+75
+76    <uses-permission android:name="android.permission.VIBRATE" />
+76-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:101:5-66
+76-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:101:22-63
+77    <uses-permission android:name="com.moodle.edutab.permission.PushHandlerActivity" />
+77-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:102:22-84
+78    <uses-permission android:name="com.moodle.edutab.permission.BackgroundHandlerActivity" />
+78-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:103:22-90
+79
+80    <permission
+81        android:name="com.moodle.edutab.permission.PushHandlerActivity"
+81-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:104:17-79
+82        android:protectionLevel="signature" />
+82-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:104:80-115
+83    <permission
+84        android:name="com.moodle.edutab.permission.BackgroundHandlerActivity"
+84-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:105:17-85
+85        android:protectionLevel="signature" />
+85-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:105:86-121
+86
+87    <uses-permission android:name="android.permission.BLUETOOTH" />
+87-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:106:5-68
+87-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:106:22-65
+88    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+88-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:107:5-72
+88-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:107:22-69
+89    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+89-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:108:5-74
+89-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:108:22-71
+90
+91    <queries>
+91-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:69:5-83:15
+92        <intent>
+92-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:70:9-72:18
+93            <action android:name="android.media.action.IMAGE_CAPTURE" />
+93-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:71:13-73
+93-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:71:21-70
+94        </intent>
+95        <intent>
+95-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:73:9-75:18
+96            <action android:name="android.intent.action.GET_CONTENT" />
+96-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:74:13-72
+96-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:74:21-69
+97        </intent>
+98    </queries>
+99    <!-- for android -->
+100    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+101    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+102    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+103    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+104    <!-- for Samsung -->
+105    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+105-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+105-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+106    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+106-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+106-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+107    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+107-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+107-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+108    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+108-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+108-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+109    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+109-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+109-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+110    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+110-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+110-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+111    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+111-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+111-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+112    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+112-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+112-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+113    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+113-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+113-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+114    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+114-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+114-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+115    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+115-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+115-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+116    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+116-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+116-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+117    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+117-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+117-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+118    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+118-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+118-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+119    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+119-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+119-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+120    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" /> <!-- TODO replace above two with next line after Android 4.2 -->
+120-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+120-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\maxwe\.gradle\caches\transforms-3\f5bb27cb6c243727e7d46757ff29e259\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+121    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+122    <uses-feature
+122-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:32:5-34:36
+123        android:name="android.hardware.camera.autofocus"
+123-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:33:9-57
+124        android:required="false" />
+124-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:34:9-33
+125    <uses-feature
+125-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:35:5-37:36
+126        android:name="android.hardware.camera.flash"
+126-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:36:9-53
+127        android:required="false" />
+127-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:37:9-33
+128    <uses-feature
+128-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:38:5-40:36
+129        android:name="android.hardware.screen.landscape"
+129-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:39:9-57
+130        android:required="false" />
+130-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:40:9-33
+131    <uses-feature
+131-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:41:5-43:36
+132        android:name="android.hardware.wifi"
+132-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:42:9-45
+133        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+133-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:43:9-33
+134    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+134-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:26:5-82
+134-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:26:22-79
+135    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+135-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\688bf375175030e68b5499019075278f\transformed\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:25:5-79
+135-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\688bf375175030e68b5499019075278f\transformed\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:25:22-76
+136    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+136-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:26:5-110
+136-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:26:22-107
+137
+138    <application
+138-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:5:5-66:19
+139        android:allowBackup="true"
+139-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:5:18-44
+140        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+140-->[androidx.core:core:1.7.0] C:\Users\maxwe\.gradle\caches\transforms-3\871547848669a13539311a17395d04e0\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+141        android:dataExtractionRules="@xml/backup_rules"
+141-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:5:45-92
+142        android:debuggable="true"
+143        android:hardwareAccelerated="true"
+143-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:5:93-127
+144        android:icon="@mipmap/ic_launcher"
+144-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:5:128-162
+145        android:label="@string/app_name"
+145-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:5:163-195
+146        android:largeHeap="true"
+146-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:5:196-220
+147        android:networkSecurityConfig="@xml/network_security_config"
+147-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:5:221-281
+148        android:supportsRtl="true"
+148-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:5:282-308
+149        android:testOnly="true" >
+150        <activity
+150-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:6:9-27:20
+151            android:name="com.moodle.edutab.MainActivity"
+151-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:6:222-267
+152            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize"
+152-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:6:19-128
+153            android:exported="true"
+153-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:6:129-152
+154            android:label="@string/activity_name"
+154-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:6:153-190
+155            android:launchMode="singleTop"
+155-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:6:191-221
+156            android:theme="@style/Theme.App.SplashScreen"
+156-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:6:268-313
+157            android:windowSoftInputMode="adjustResize" >
+157-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:6:314-356
+158            <intent-filter android:label="@string/launcher_name" >
+158-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+158-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+159                <action android:name="android.intent.action.MAIN" />
+159-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+159-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+160
+161                <category android:name="android.intent.category.LAUNCHER" />
+161-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+161-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+162            </intent-filter>
+163            <intent-filter>
+163-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:11:13-16:29
+164                <action android:name="android.intent.action.VIEW" />
+164-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:12:17-69
+164-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:12:25-66
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:13:17-76
+166-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:13:27-73
+167                <category android:name="android.intent.category.BROWSABLE" />
+167-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:14:17-78
+167-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:14:27-75
+168
+169                <data android:scheme="mmkemi" />
+169-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:15:17-49
+169-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:15:23-46
+170            </intent-filter>
+171            <intent-filter>
+171-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:17:13-22:29
+172                <action android:name="android.intent.action.VIEW" />
+172-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:12:17-69
+172-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:12:25-66
+173
+174                <category android:name="android.intent.category.DEFAULT" />
+174-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:13:17-76
+174-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:13:27-73
+175                <category android:name="android.intent.category.BROWSABLE" />
+175-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:14:17-78
+175-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:14:27-75
+176
+177                <data
+177-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:15:17-49
+178                    android:host=" "
+178-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:21:23-39
+179                    android:pathPrefix="/"
+179-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:21:40-62
+180                    android:scheme=" " />
+180-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:15:23-46
+181            </intent-filter>
+182            <intent-filter>
+182-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:23:13-26:29
+183                <action android:name="com.darryncampbell.cordova.plugin.intent.ACTION" />
+183-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:24:17-90
+183-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:24:25-87
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:13:17-76
+185-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:13:27-73
+186            </intent-filter>
+187        </activity>
+188
+189        <provider
+190            android:name="de.appplant.cordova.plugin.notification.util.AssetProvider"
+190-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:28:146-219
+191            android:authorities="com.moodle.edutab.localnotifications.provider"
+191-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:28:19-85
+192            android:exported="false"
+192-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:28:86-110
+193            android:grantUriPermissions="true" >
+193-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:28:111-145
+194            <meta-data
+194-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:13-134
+195                android:name="android.support.FILE_PROVIDER_PATHS"
+195-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:24-74
+196                android:resource="@xml/localnotification_provider_paths" />
+196-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:75-131
+197        </provider>
+198
+199        <receiver
+199-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:31:9-122
+200            android:name="de.appplant.cordova.plugin.localnotification.TriggerReceiver"
+200-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:31:44-119
+201            android:exported="false" />
+201-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:31:19-43
+202        <receiver
+202-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:32:9-120
+203            android:name="de.appplant.cordova.plugin.localnotification.ClearReceiver"
+203-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:32:44-117
+204            android:exported="false" />
+204-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:32:19-43
+205
+206        <service
+206-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:33:9-119
+207            android:name="de.appplant.cordova.plugin.localnotification.ClickReceiver"
+207-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:33:43-116
+208            android:exported="false" />
+208-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:33:18-42
+209
+210        <receiver
+210-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:34:9-39:20
+211            android:name="de.appplant.cordova.plugin.localnotification.RestoreReceiver"
+211-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:34:75-150
+212            android:directBootAware="true"
+212-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:34:19-49
+213            android:exported="false" >
+213-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:34:50-74
+214            <intent-filter>
+214-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:35:13-38:29
+215                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+215-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:36:17-86
+215-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:36:25-83
+216                <action android:name="android.intent.action.BOOT_COMPLETED" />
+216-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:37:17-79
+216-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:37:25-76
+217            </intent-filter>
+218        </receiver>
+219
+220        <provider
+221            android:name="org.apache.cordova.camera.FileProvider"
+221-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:40:149-202
+222            android:authorities="com.moodle.edutab.cordova.plugin.camera.provider"
+222-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:40:19-88
+223            android:exported="false"
+223-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:40:89-113
+224            android:grantUriPermissions="true" >
+224-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:40:114-148
+225            <meta-data
+225-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:13-134
+226                android:name="android.support.FILE_PROVIDER_PATHS"
+226-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:24-74
+227                android:resource="@xml/camera_provider_paths" />
+227-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:75-131
+228        </provider>
+229        <provider
+230            android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
+230-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:43:139-210
+231            android:authorities="com.moodle.edutab.fileOpener2.provider"
+231-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:43:19-78
+232            android:exported="false"
+232-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:43:79-103
+233            android:grantUriPermissions="true" >
+233-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:43:104-138
+234            <meta-data
+234-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:13-134
+235                android:name="android.support.FILE_PROVIDER_PATHS"
+235-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:24-74
+236                android:resource="@xml/opener_paths" />
+236-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:75-131
+237        </provider>
+238
+239        <activity
+239-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:46:9-185
+240            android:name="de.appplant.cordova.plugin.localnotification.ClickHandlerActivity"
+240-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:46:78-158
+241            android:excludeFromRecents="true"
+241-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:46:19-52
+242            android:exported="false"
+242-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:46:53-77
+243            android:taskAffinity="" />
+243-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:46:159-182
+244        <activity
+245            android:name="com.adobe.phonegap.push.PushHandlerActivity"
+245-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:47:43-101
+246            android:exported="true"
+246-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:47:19-42
+247            android:permission="com.moodle.edutab.permission.PushHandlerActivity" />
+247-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:47:102-170
+248        <activity
+249            android:name="com.adobe.phonegap.push.BackgroundHandlerActivity"
+249-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:48:43-107
+250            android:exported="true"
+250-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:48:19-42
+251            android:permission="com.moodle.edutab.permission.BackgroundHandlerActivity" >
+251-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:48:108-182
+252            <intent-filter>
+252-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:49:13-52:29
+253                <action android:name="com.adobe.phonegap.push.background.MESSAGING_EVENT" />
+253-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:50:17-93
+253-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:50:25-90
+254
+255                <category android:name="android.intent.category.DEFAULT" />
+255-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:13:17-76
+255-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:13:27-73
+256            </intent-filter>
+257        </activity>
+258
+259        <receiver android:name="com.adobe.phonegap.push.BackgroundActionButtonHandler" />
+259-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:54:9-90
+259-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:54:19-87
+260        <receiver android:name="com.adobe.phonegap.push.PushDismissedHandler" />
+260-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:55:9-81
+260-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:55:19-78
+261
+262        <service
+262-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:56:9-60:19
+263            android:name="com.adobe.phonegap.push.FCMService"
+263-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:56:42-91
+264            android:exported="true" >
+264-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:56:18-41
+265            <intent-filter>
+265-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:57:13-59:29
+266                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+266-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:58:17-78
+266-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:58:25-75
+267            </intent-filter>
+268        </service>
+269
+270        <provider
+271            android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
+271-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:61:168-255
+272            android:authorities="com.moodle.edutab.darryncampbell.cordova.plugin.intent.fileprovider"
+272-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:61:19-107
+273            android:exported="false"
+273-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:61:108-132
+274            android:grantUriPermissions="true" >
+274-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:61:133-167
+275            <meta-data
+275-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:13-134
+276                android:name="android.support.FILE_PROVIDER_PATHS"
+276-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:24-74
+277                android:resource="@xml/provider_paths" />
+277-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:29:75-131
+278        </provider>
+279
+280        <activity
+280-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:64:9-151
+281            android:name="de.niklasmerz.cordova.biometric.BiometricActivity"
+281-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:64:44-108
+282            android:exported="false"
+282-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:64:19-43
+283            android:theme="@style/TransparentTheme" />
+283-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:64:109-148
+284
+285        <meta-data
+285-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:65:9-101
+286            android:name="firebase_analytics_collection_deactivated"
+286-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:65:20-76
+287            android:value="false" />
+287-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:65:77-98
+288
+289        <activity
+289-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:46:9-52:63
+290            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+290-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:47:13-74
+291            android:clearTaskOnLaunch="true"
+291-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:48:13-45
+292            android:screenOrientation="sensorLandscape"
+292-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:49:13-56
+293            android:stateNotNeeded="true"
+293-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:50:13-42
+294            android:theme="@style/zxing_CaptureTheme"
+294-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:51:13-54
+295            android:windowSoftInputMode="stateAlwaysHidden" />
+295-->[com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\maxwe\.gradle\caches\transforms-3\c13c015bfb214af8edca8570e44151e8\transformed\jetified-zxing-android-embedded-3.3.0\AndroidManifest.xml:52:13-60
+296        <activity
+296-->[androidx.biometric:biometric:1.0.1] C:\Users\maxwe\.gradle\caches\transforms-3\42af83ac7e7cf3463a32c53289952c30\transformed\biometric-1.0.1\AndroidManifest.xml:28:9-31:67
+297            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+297-->[androidx.biometric:biometric:1.0.1] C:\Users\maxwe\.gradle\caches\transforms-3\42af83ac7e7cf3463a32c53289952c30\transformed\biometric-1.0.1\AndroidManifest.xml:29:13-78
+298            android:exported="true"
+298-->[androidx.biometric:biometric:1.0.1] C:\Users\maxwe\.gradle\caches\transforms-3\42af83ac7e7cf3463a32c53289952c30\transformed\biometric-1.0.1\AndroidManifest.xml:30:13-36
+299            android:theme="@style/DeviceCredentialHandlerTheme" />
+299-->[androidx.biometric:biometric:1.0.1] C:\Users\maxwe\.gradle\caches\transforms-3\42af83ac7e7cf3463a32c53289952c30\transformed\biometric-1.0.1\AndroidManifest.xml:31:13-64
+300
+301        <receiver
+301-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:29:9-40:20
+302            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+302-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:30:13-78
+303            android:exported="true"
+303-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:31:13-36
+304            android:permission="com.google.android.c2dm.permission.SEND" >
+304-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:32:13-73
+305            <intent-filter>
+305-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:33:13-35:29
+306                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+306-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:34:17-81
+306-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:34:25-78
+307            </intent-filter>
+308
+309            <meta-data
+309-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:37:13-39:40
+310                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+310-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:38:17-92
+311                android:value="true" />
+311-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:39:17-37
+312        </receiver>
+313        <!--
+314             FirebaseMessagingService performs security checks at runtime,
+315             but set to not exported to explicitly avoid allowing another app to call it.
+316        -->
+317        <service
+317-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:46:9-53:19
+318            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+318-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:47:13-82
+319            android:directBootAware="true"
+319-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:48:13-43
+320            android:exported="false" >
+320-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:49:13-37
+321            <intent-filter android:priority="-500" >
+321-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:57:13-59:29
+322                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+322-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:58:17-78
+322-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\app\src\main\AndroidManifest.xml:58:25-75
+323            </intent-filter>
+324        </service>
+325        <service
+325-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:54:9-63:19
+326            android:name="com.google.firebase.components.ComponentDiscoveryService"
+326-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:55:13-84
+327            android:directBootAware="true"
+327-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+328            android:exported="false" >
+328-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:56:13-37
+329            <meta-data
+329-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:57:13-59:85
+330                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+330-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:58:17-122
+331                android:value="com.google.firebase.components.ComponentRegistrar" />
+331-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:59:17-82
+332            <meta-data
+332-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:60:13-62:85
+333                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+333-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:61:17-119
+334                android:value="com.google.firebase.components.ComponentRegistrar" />
+334-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\maxwe\.gradle\caches\transforms-3\2d9fce185fdfbc7e133941974c97c631\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:62:17-82
+335            <meta-data
+335-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\688bf375175030e68b5499019075278f\transformed\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:31:13-33:85
+336                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+336-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\688bf375175030e68b5499019075278f\transformed\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:32:17-139
+337                android:value="com.google.firebase.components.ComponentRegistrar" />
+337-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\688bf375175030e68b5499019075278f\transformed\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:33:17-82
+338            <meta-data
+338-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\maxwe\.gradle\caches\transforms-3\1dc883016533573399b4d04fe9f393cc\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+339                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+339-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\maxwe\.gradle\caches\transforms-3\1dc883016533573399b4d04fe9f393cc\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+340                android:value="com.google.firebase.components.ComponentRegistrar" />
+340-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\maxwe\.gradle\caches\transforms-3\1dc883016533573399b4d04fe9f393cc\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+341            <meta-data
+341-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\maxwe\.gradle\caches\transforms-3\1dc883016533573399b4d04fe9f393cc\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+342                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+342-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\maxwe\.gradle\caches\transforms-3\1dc883016533573399b4d04fe9f393cc\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+343                android:value="com.google.firebase.components.ComponentRegistrar" />
+343-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\maxwe\.gradle\caches\transforms-3\1dc883016533573399b4d04fe9f393cc\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+344            <meta-data
+344-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\5005985f8b34d0fac4fe9ca975cc2cd9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+345                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+345-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\5005985f8b34d0fac4fe9ca975cc2cd9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+346                android:value="com.google.firebase.components.ComponentRegistrar" />
+346-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\5005985f8b34d0fac4fe9ca975cc2cd9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+347            <meta-data
+347-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+348                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+348-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+349                android:value="com.google.firebase.components.ComponentRegistrar" />
+349-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+350            <meta-data
+350-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\maxwe\.gradle\caches\transforms-3\5495f70c299eaab56e5ba7ac99de66c7\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+351                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+351-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\maxwe\.gradle\caches\transforms-3\5495f70c299eaab56e5ba7ac99de66c7\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+352                android:value="com.google.firebase.components.ComponentRegistrar" />
+352-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\maxwe\.gradle\caches\transforms-3\5495f70c299eaab56e5ba7ac99de66c7\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+353        </service>
+354
+355        <provider
+355-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+356            android:name="com.google.firebase.provider.FirebaseInitProvider"
+356-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+357            android:authorities="com.moodle.edutab.firebaseinitprovider"
+357-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+358            android:directBootAware="true"
+358-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+359            android:exported="false"
+359-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+360            android:initOrder="100" />
+360-->[com.google.firebase:firebase-common:20.4.2] C:\Users\maxwe\.gradle\caches\transforms-3\9ebbb185254d7b22ece86154bf1fd102\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+361
+362        <activity
+362-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\maxwe\.gradle\caches\transforms-3\09d0bdea71eaacaec44c3e37364586b9\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+363            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+363-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\maxwe\.gradle\caches\transforms-3\09d0bdea71eaacaec44c3e37364586b9\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+364            android:exported="false"
+364-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\maxwe\.gradle\caches\transforms-3\09d0bdea71eaacaec44c3e37364586b9\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+365            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+365-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\maxwe\.gradle\caches\transforms-3\09d0bdea71eaacaec44c3e37364586b9\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+366
+367        <receiver
+367-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:29:9-33:20
+368            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+368-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:30:13-85
+369            android:enabled="true"
+369-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:31:13-35
+370            android:exported="false" >
+370-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:32:13-37
+371        </receiver>
+372
+373        <service
+373-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:35:9-38:40
+374            android:name="com.google.android.gms.measurement.AppMeasurementService"
+374-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:36:13-84
+375            android:enabled="true"
+375-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:37:13-35
+376            android:exported="false" />
+376-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:38:13-37
+377        <service
+377-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:39:9-43:72
+378            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+378-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:40:13-87
+379            android:enabled="true"
+379-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:41:13-35
+380            android:exported="false"
+380-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:42:13-37
+381            android:permission="android.permission.BIND_JOB_SERVICE" />
+381-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\7319344d8f73b55a87852104ee010b7d\transformed\jetified-play-services-measurement-21.1.0\AndroidManifest.xml:43:13-69
+382
+383        <meta-data
+383-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\c5d1b3002b5a96207fd4daf4d70b3ddc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+384            android:name="com.google.android.gms.version"
+384-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\c5d1b3002b5a96207fd4daf4d70b3ddc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+385            android:value="@integer/google_play_services_version" />
+385-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\maxwe\.gradle\caches\transforms-3\c5d1b3002b5a96207fd4daf4d70b3ddc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+386
+387        <provider
+387-->[androidx.emoji2:emoji2:1.0.0] C:\Users\maxwe\.gradle\caches\transforms-3\e3d29424ad1e2d30da401eeb31067207\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+388            android:name="androidx.startup.InitializationProvider"
+388-->[androidx.emoji2:emoji2:1.0.0] C:\Users\maxwe\.gradle\caches\transforms-3\e3d29424ad1e2d30da401eeb31067207\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+389            android:authorities="com.moodle.edutab.androidx-startup"
+389-->[androidx.emoji2:emoji2:1.0.0] C:\Users\maxwe\.gradle\caches\transforms-3\e3d29424ad1e2d30da401eeb31067207\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+390            android:exported="false" >
+390-->[androidx.emoji2:emoji2:1.0.0] C:\Users\maxwe\.gradle\caches\transforms-3\e3d29424ad1e2d30da401eeb31067207\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+391            <meta-data
+391-->[androidx.emoji2:emoji2:1.0.0] C:\Users\maxwe\.gradle\caches\transforms-3\e3d29424ad1e2d30da401eeb31067207\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+392                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+392-->[androidx.emoji2:emoji2:1.0.0] C:\Users\maxwe\.gradle\caches\transforms-3\e3d29424ad1e2d30da401eeb31067207\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+393                android:value="androidx.startup" />
+393-->[androidx.emoji2:emoji2:1.0.0] C:\Users\maxwe\.gradle\caches\transforms-3\e3d29424ad1e2d30da401eeb31067207\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+394            <meta-data
+394-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\maxwe\.gradle\caches\transforms-3\59e163b602d8635cfab541b6af004e8f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+395                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+395-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\maxwe\.gradle\caches\transforms-3\59e163b602d8635cfab541b6af004e8f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+396                android:value="androidx.startup" />
+396-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\maxwe\.gradle\caches\transforms-3\59e163b602d8635cfab541b6af004e8f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+397        </provider>
+398
+399        <service
+399-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\446370e43d8d0fa430803b57f6193771\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+400            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+400-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\446370e43d8d0fa430803b57f6193771\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+401            android:exported="false" >
+401-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\446370e43d8d0fa430803b57f6193771\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+402            <meta-data
+402-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\446370e43d8d0fa430803b57f6193771\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+403                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+403-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\446370e43d8d0fa430803b57f6193771\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+404                android:value="cct" />
+404-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\446370e43d8d0fa430803b57f6193771\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+405        </service>
+406        <service
+406-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\6b120536291c2651072073f5f3702e68\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+407            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+407-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\6b120536291c2651072073f5f3702e68\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+408            android:exported="false"
+408-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\6b120536291c2651072073f5f3702e68\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+409            android:permission="android.permission.BIND_JOB_SERVICE" >
+409-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\6b120536291c2651072073f5f3702e68\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+410        </service>
+411
+412        <receiver
+412-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\6b120536291c2651072073f5f3702e68\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+413            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+413-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\6b120536291c2651072073f5f3702e68\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+414            android:exported="false" />
+414-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\maxwe\.gradle\caches\transforms-3\6b120536291c2651072073f5f3702e68\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+415    </application>
+416
+417</manifest>
