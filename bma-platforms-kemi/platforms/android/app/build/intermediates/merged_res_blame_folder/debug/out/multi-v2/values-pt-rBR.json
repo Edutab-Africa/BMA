@@ -4,24 +4,7 @@
             "outputFile": "com.moodle.edutab.app-mergeDebugResources-27:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\42af83ac7e7cf3463a32c53289952c30\\transformed\\biometric-1.0.1\\res\\values-pt-rBR\\values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,182,286,380,497,636,783,914,1044,1188,1289",
-                        "endColumns": "126,103,93,116,138,146,130,129,143,100,122",
-                        "endOffsets": "177,281,375,492,631,778,909,1039,1183,1284,1407"
-                    },
-                    "to": {
-                        "startLines": "29,48,49,50,51,52,53,54,55,56,57",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2843,5232,5336,5430,5547,5686,5833,5964,6094,6238,6339",
-                        "endColumns": "126,103,93,116,138,146,130,129,143,100,122",
-                        "endOffsets": "2965,5331,5425,5542,5681,5828,5959,6089,6233,6334,6457"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\09d0bdea71eaacaec44c3e37364586b9\\transformed\\jetified-play-services-base-18.0.1\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\09d0bdea71eaacaec44c3e37364586b9\\transformed\\jetified-play-services-base-18.0.1\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\871547848669a13539311a17395d04e0\\transformed\\core-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "59",
-                        "startColumns": "4",
-                        "startOffsets": "6548",
-                        "endColumns": "100",
-                        "endOffsets": "6644"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\c5d1b3002b5a96207fd4daf4d70b3ddc\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\c5d1b3002b5a96207fd4daf4d70b3ddc\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -72,7 +38,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\0e3120453a21a246b2089d98eb4f8a95\\transformed\\appcompat-1.4.2\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\42af83ac7e7cf3463a32c53289952c30\\transformed\\biometric-1.0.1\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,182,286,380,497,636,783,914,1044,1188,1289",
+                        "endColumns": "126,103,93,116,138,146,130,129,143,100,122",
+                        "endOffsets": "177,281,375,492,631,778,909,1039,1183,1284,1407"
+                    },
+                    "to": {
+                        "startLines": "29,48,49,50,51,52,53,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2843,5232,5336,5430,5547,5686,5833,5964,6094,6238,6339",
+                        "endColumns": "126,103,93,116,138,146,130,129,143,100,122",
+                        "endOffsets": "2965,5331,5425,5542,5681,5828,5959,6089,6233,6334,6457"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\871547848669a13539311a17395d04e0\\transformed\\core-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "59",
+                        "startColumns": "4",
+                        "startOffsets": "6548",
+                        "endColumns": "100",
+                        "endOffsets": "6644"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\0e3120453a21a246b2089d98eb4f8a95\\transformed\\appcompat-1.4.2\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

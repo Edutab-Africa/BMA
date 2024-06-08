@@ -24,8 +24,8 @@
 24
 25    <uses-sdk
 26        android:minSdkVersion="22"
-26-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\CordovaLib\AndroidManifest.xml
+26-->D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\AndroidManifest.xml
 27        android:targetSdkVersion="22" />
-27-->C:\bma-platforms-kemi-4.3.0-v1-android (1)\bma-platforms-kemi\platforms\android\CordovaLib\AndroidManifest.xml
+27-->D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\AndroidManifest.xml
 28
 29</manifest>
