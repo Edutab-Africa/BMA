@@ -1,0 +1,7 @@
+com.moodle.edutab.test.app-androidTest-0 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\app\build\generated\res\resValues\androidTest\debug
+com.moodle.edutab.test.app-androidTest-1 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\app\build\generated\res\rs\androidTest\debug
+com.moodle.edutab.test.app-mergeDebugAndroidTestResources-2 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.moodle.edutab.test.app-mergeDebugAndroidTestResources-3 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.moodle.edutab.test.app-merged_res-4 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\app\build\intermediates\merged_res\debugAndroidTest
+com.moodle.edutab.test.app-androidTest-5 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\app\src\androidTest\res
+com.moodle.edutab.test.app-androidTestDebug-6 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\app\src\androidTestDebug\res

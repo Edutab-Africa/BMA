@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1016166499467-ocrvif3s27ed1559eg1fm41rk7vehkkp.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1016166499467</string>
+    <string name="google_api_key" translatable="false">AIzaSyConVttbYFC9LD96eqiiCm88Lc1pVIjD1M</string>
+    <string name="google_app_id" translatable="false">1:1016166499467:android:127f6bbf8b64657cdf408e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyConVttbYFC9LD96eqiiCm88Lc1pVIjD1M</string>
+    <string name="google_storage_bucket" translatable="false">edutab-bma.appspot.com</string>
+    <string name="project_id" translatable="false">edutab-bma</string>
+</resources>

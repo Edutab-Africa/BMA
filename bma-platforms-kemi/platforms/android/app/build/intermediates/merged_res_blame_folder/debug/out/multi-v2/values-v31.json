@@ -4,7 +4,7 @@
             "outputFile": "com.moodle.edutab.app-mergeDebugResources-27:/values-v31/values-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\f73cd84fddd4a8bc23ec99a52e74dd91\\transformed\\jetified-core-splashscreen-1.0.0-rc01\\res\\values-v31\\values-v31.xml",
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\f73cd84fddd4a8bc23ec99a52e74dd91\\transformed\\jetified-core-splashscreen-1.0.0-rc01\\res\\values-v31\\values-v31.xml",
                     "from": {
                         "startLines": "2,9",
                         "startColumns": "4,4",

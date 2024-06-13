@@ -1,0 +1,13 @@
+#Sat Jun 08 17:06:29 EAT 2024
+base.0=D\:\\max\\New folder (2)\\BMA\\bma-platforms-kemi\\platforms\\android\\CordovaLib\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=D\:\\max\\New folder (2)\\BMA\\bma-platforms-kemi\\platforms\\android\\CordovaLib\\build\\intermediates\\dex\\debugAndroidTest\\mergeLibDexDebugAndroidTest\\0\\classes.dex
+base.2=D\:\\max\\New folder (2)\\BMA\\bma-platforms-kemi\\platforms\\android\\CordovaLib\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.3=D\:\\max\\New folder (2)\\BMA\\bma-platforms-kemi\\platforms\\android\\CordovaLib\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\14\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=0/classes.dex
+path.3=14/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

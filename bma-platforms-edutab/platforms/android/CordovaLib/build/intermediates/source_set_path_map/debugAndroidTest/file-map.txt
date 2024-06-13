@@ -1,0 +1,21 @@
+org.apache.cordova.test.CordovaLib-appcompat-1.4.2-0 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\0e3120453a21a246b2089d98eb4f8a95\transformed\appcompat-1.4.2\res
+org.apache.cordova.test.CordovaLib-jetified-startup-runtime-1.0.0-1 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\2e5ae51c98e6bb482e4df3037174c88f\transformed\jetified-startup-runtime-1.0.0\res
+org.apache.cordova.test.CordovaLib-jetified-lifecycle-process-2.4.0-2 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\59e163b602d8635cfab541b6af004e8f\transformed\jetified-lifecycle-process-2.4.0\res
+org.apache.cordova.test.CordovaLib-jetified-appcompat-resources-1.4.2-3 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\5cd26a68fc9ce766747d894f2628df09\transformed\jetified-appcompat-resources-1.4.2\res
+org.apache.cordova.test.CordovaLib-lifecycle-runtime-2.4.0-4 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\65f5818dd9a7f3c225b48556e4a6c615\transformed\lifecycle-runtime-2.4.0\res
+org.apache.cordova.test.CordovaLib-jetified-emoji2-views-helper-1.0.0-5 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\679f070392a4e353e78226dcddd665bd\transformed\jetified-emoji2-views-helper-1.0.0\res
+org.apache.cordova.test.CordovaLib-lifecycle-viewmodel-2.3.1-6 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\6c046b08f044929cb24fdfb9a49bdb90\transformed\lifecycle-viewmodel-2.3.1\res
+org.apache.cordova.test.CordovaLib-core-1.7.0-7 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\871547848669a13539311a17395d04e0\transformed\core-1.7.0\res
+org.apache.cordova.test.CordovaLib-jetified-annotation-experimental-1.1.0-8 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\883c6eb44be44542ad0ff5c2605c0970\transformed\jetified-annotation-experimental-1.1.0\res
+org.apache.cordova.test.CordovaLib-fragment-1.3.6-9 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\983b610fd3c0ae4d05462129f50e091f\transformed\fragment-1.3.6\res
+org.apache.cordova.test.CordovaLib-jetified-emoji2-1.0.0-10 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\e3d29424ad1e2d30da401eeb31067207\transformed\jetified-emoji2-1.0.0\res
+org.apache.cordova.test.CordovaLib-jetified-savedstate-1.1.0-11 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\e9dc3b651ab77ab6fb054157ecf3f970\transformed\jetified-savedstate-1.1.0\res
+org.apache.cordova.test.CordovaLib-jetified-core-splashscreen-1.0.0-rc01-12 C:\Users\Vilgax Dev\.gradle\caches\transforms-3\f73cd84fddd4a8bc23ec99a52e74dd91\transformed\jetified-core-splashscreen-1.0.0-rc01\res
+org.apache.cordova.test.CordovaLib-androidTest-13 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\build\generated\res\resValues\androidTest\debug
+org.apache.cordova.test.CordovaLib-androidTest-14 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\build\generated\res\rs\androidTest\debug
+org.apache.cordova.test.CordovaLib-mergeDebugAndroidTestResources-15 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+org.apache.cordova.test.CordovaLib-mergeDebugAndroidTestResources-16 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+org.apache.cordova.test.CordovaLib-merged_res-17 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\build\intermediates\merged_res\debugAndroidTest
+org.apache.cordova.test.CordovaLib-packaged_res-18 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\build\intermediates\packaged_res\debug
+org.apache.cordova.test.CordovaLib-androidTest-19 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\src\androidTest\res
+org.apache.cordova.test.CordovaLib-androidTestDebug-20 D:\max\New folder (2)\BMA\bma-platforms-kemi\platforms\android\CordovaLib\src\androidTestDebug\res

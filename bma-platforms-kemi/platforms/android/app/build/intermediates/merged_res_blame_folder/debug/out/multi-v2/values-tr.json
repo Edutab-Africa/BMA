@@ -4,7 +4,7 @@
             "outputFile": "com.moodle.edutab.app-mergeDebugResources-27:/values-tr/values-tr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\0e3120453a21a246b2089d98eb4f8a95\\transformed\\appcompat-1.4.2\\res\\values-tr\\values-tr.xml",
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\0e3120453a21a246b2089d98eb4f8a95\\transformed\\appcompat-1.4.2\\res\\values-tr\\values-tr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,58 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\c5d1b3002b5a96207fd4daf4d70b3ddc\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-tr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "142",
-                        "endOffsets": "337"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "3934",
-                        "endColumns": "146",
-                        "endOffsets": "4076"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\09d0bdea71eaacaec44c3e37364586b9\\transformed\\jetified-play-services-base-18.0.1\\res\\values-tr\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,299,450,582,683,826,952,1075,1177,1345,1448,1601,1731,1872,2035,2093,2153",
-                        "endColumns": "105,150,131,100,142,125,122,101,167,102,152,129,140,162,57,59,75",
-                        "endOffsets": "298,449,581,682,825,951,1074,1176,1344,1447,1600,1730,1871,2034,2092,2152,2228"
-                    },
-                    "to": {
-                        "startLines": "30,31,32,33,34,35,36,37,39,40,41,42,43,44,45,46,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2918,3028,3183,3319,3424,3571,3701,3828,4081,4253,4360,4517,4651,4796,4963,5025,5089",
-                        "endColumns": "109,154,135,104,146,129,126,105,171,106,156,133,144,166,61,63,79",
-                        "endOffsets": "3023,3178,3314,3419,3566,3696,3823,3929,4248,4355,4512,4646,4791,4958,5020,5084,5164"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\c13c015bfb214af8edca8570e44151e8\\transformed\\jetified-zxing-android-embedded-3.3.0\\res\\values-tr\\values-tr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,116,166,313",
-                        "endColumns": "60,49,146,119",
-                        "endOffsets": "111,161,308,428"
-                    },
-                    "to": {
-                        "startLines": "60,61,62,63",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6558,6619,6669,6816",
-                        "endColumns": "60,49,146,119",
-                        "endOffsets": "6614,6664,6811,6931"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\42af83ac7e7cf3463a32c53289952c30\\transformed\\biometric-1.0.1\\res\\values-tr\\values-tr.xml",
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\42af83ac7e7cf3463a32c53289952c30\\transformed\\biometric-1.0.1\\res\\values-tr\\values-tr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -89,7 +38,58 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\maxwe\\.gradle\\caches\\transforms-3\\871547848669a13539311a17395d04e0\\transformed\\core-1.7.0\\res\\values-tr\\values-tr.xml",
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\c5d1b3002b5a96207fd4daf4d70b3ddc\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "142",
+                        "endOffsets": "337"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "3934",
+                        "endColumns": "146",
+                        "endOffsets": "4076"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\a72ac83a888b85fae3d43063e240a79f\\transformed\\jetified-zxing-android-embedded-3.3.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,116,166,313",
+                        "endColumns": "60,49,146,119",
+                        "endOffsets": "111,161,308,428"
+                    },
+                    "to": {
+                        "startLines": "60,61,62,63",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6558,6619,6669,6816",
+                        "endColumns": "60,49,146,119",
+                        "endOffsets": "6614,6664,6811,6931"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\09d0bdea71eaacaec44c3e37364586b9\\transformed\\jetified-play-services-base-18.0.1\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,299,450,582,683,826,952,1075,1177,1345,1448,1601,1731,1872,2035,2093,2153",
+                        "endColumns": "105,150,131,100,142,125,122,101,167,102,152,129,140,162,57,59,75",
+                        "endOffsets": "298,449,581,682,825,951,1074,1176,1344,1447,1600,1730,1871,2034,2092,2152,2228"
+                    },
+                    "to": {
+                        "startLines": "30,31,32,33,34,35,36,37,39,40,41,42,43,44,45,46,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2918,3028,3183,3319,3424,3571,3701,3828,4081,4253,4360,4517,4651,4796,4963,5025,5089",
+                        "endColumns": "109,154,135,104,146,129,126,105,171,106,156,133,144,166,61,63,79",
+                        "endOffsets": "3023,3178,3314,3419,3566,3696,3823,3929,4248,4355,4512,4646,4791,4958,5020,5084,5164"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Vilgax Dev\\.gradle\\caches\\transforms-3\\871547848669a13539311a17395d04e0\\transformed\\core-1.7.0\\res\\values-tr\\values-tr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
