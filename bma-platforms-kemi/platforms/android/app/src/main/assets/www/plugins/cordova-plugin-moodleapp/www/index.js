@@ -1,4 +1,0 @@
-cordova.define("cordova-plugin-moodleapp.moodleapp", function(require, exports, module) {
-"use strict";(()=>{var i=class{async getReferrer(){return new Promise((e,t)=>{cordova.exec(e,t,"InstallReferrer","getReferrer",[])})}};var n=class{async get(e,t){return typeof e=="string"&&(e=[e]),new Promise((r,o)=>{cordova.exec(r,o,"SecureStorage","get",[e,t])})}async store(e,t){for(let r in e){let o=e[r];if(o==null)delete e[r];else if(typeof o!="string")throw new Error(`SecureStorage: Invalid value for ${r}. Expected string, received ${typeof o}`)}await new Promise((r,o)=>{cordova.exec(r,o,"SecureStorage","store",[e,t])})}async delete(e,t){typeof e=="string"&&(e=[e]),await new Promise((r,o)=>{cordova.exec(r,o,"SecureStorage","delete",[e,t])})}async deleteCollection(e){await new Promise((t,r)=>{cordova.exec(t,r,"SecureStorage","deleteCollection",[e])})}};var c={secureStorage:new n,installReferrer:new i};module.exports=c;})();
-
-});
